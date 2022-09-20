@@ -116,6 +116,235 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named rfid
+
+# Build rule for target.
+rfid: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rfid
+.PHONY : rfid
+
+# fast build rule for target.
+rfid/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/build
+.PHONY : rfid/fast
+
+src/GolfMembershipManager.o: src/GolfMembershipManager.cpp.o
+.PHONY : src/GolfMembershipManager.o
+
+# target to build an object file
+src/GolfMembershipManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/GolfMembershipManager.cpp.o
+.PHONY : src/GolfMembershipManager.cpp.o
+
+src/GolfMembershipManager.i: src/GolfMembershipManager.cpp.i
+.PHONY : src/GolfMembershipManager.i
+
+# target to preprocess a source file
+src/GolfMembershipManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/GolfMembershipManager.cpp.i
+.PHONY : src/GolfMembershipManager.cpp.i
+
+src/GolfMembershipManager.s: src/GolfMembershipManager.cpp.s
+.PHONY : src/GolfMembershipManager.s
+
+# target to generate assembly for a file
+src/GolfMembershipManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/GolfMembershipManager.cpp.s
+.PHONY : src/GolfMembershipManager.cpp.s
+
+src/app/Controller/Controller.o: src/app/Controller/Controller.cpp.o
+.PHONY : src/app/Controller/Controller.o
+
+# target to build an object file
+src/app/Controller/Controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/app/Controller/Controller.cpp.o
+.PHONY : src/app/Controller/Controller.cpp.o
+
+src/app/Controller/Controller.i: src/app/Controller/Controller.cpp.i
+.PHONY : src/app/Controller/Controller.i
+
+# target to preprocess a source file
+src/app/Controller/Controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/app/Controller/Controller.cpp.i
+.PHONY : src/app/Controller/Controller.cpp.i
+
+src/app/Controller/Controller.s: src/app/Controller/Controller.cpp.s
+.PHONY : src/app/Controller/Controller.s
+
+# target to generate assembly for a file
+src/app/Controller/Controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/app/Controller/Controller.cpp.s
+.PHONY : src/app/Controller/Controller.cpp.s
+
+src/app/Entity/MembersEntity.o: src/app/Entity/MembersEntity.cpp.o
+.PHONY : src/app/Entity/MembersEntity.o
+
+# target to build an object file
+src/app/Entity/MembersEntity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/app/Entity/MembersEntity.cpp.o
+.PHONY : src/app/Entity/MembersEntity.cpp.o
+
+src/app/Entity/MembersEntity.i: src/app/Entity/MembersEntity.cpp.i
+.PHONY : src/app/Entity/MembersEntity.i
+
+# target to preprocess a source file
+src/app/Entity/MembersEntity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/app/Entity/MembersEntity.cpp.i
+.PHONY : src/app/Entity/MembersEntity.cpp.i
+
+src/app/Entity/MembersEntity.s: src/app/Entity/MembersEntity.cpp.s
+.PHONY : src/app/Entity/MembersEntity.s
+
+# target to generate assembly for a file
+src/app/Entity/MembersEntity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/app/Entity/MembersEntity.cpp.s
+.PHONY : src/app/Entity/MembersEntity.cpp.s
+
+src/app/Listener/Listener.o: src/app/Listener/Listener.cpp.o
+.PHONY : src/app/Listener/Listener.o
+
+# target to build an object file
+src/app/Listener/Listener.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/app/Listener/Listener.cpp.o
+.PHONY : src/app/Listener/Listener.cpp.o
+
+src/app/Listener/Listener.i: src/app/Listener/Listener.cpp.i
+.PHONY : src/app/Listener/Listener.i
+
+# target to preprocess a source file
+src/app/Listener/Listener.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/app/Listener/Listener.cpp.i
+.PHONY : src/app/Listener/Listener.cpp.i
+
+src/app/Listener/Listener.s: src/app/Listener/Listener.cpp.s
+.PHONY : src/app/Listener/Listener.s
+
+# target to generate assembly for a file
+src/app/Listener/Listener.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/app/Listener/Listener.cpp.s
+.PHONY : src/app/Listener/Listener.cpp.s
+
+src/hw/Monitor/Monitor.o: src/hw/Monitor/Monitor.cpp.o
+.PHONY : src/hw/Monitor/Monitor.o
+
+# target to build an object file
+src/hw/Monitor/Monitor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/hw/Monitor/Monitor.cpp.o
+.PHONY : src/hw/Monitor/Monitor.cpp.o
+
+src/hw/Monitor/Monitor.i: src/hw/Monitor/Monitor.cpp.i
+.PHONY : src/hw/Monitor/Monitor.i
+
+# target to preprocess a source file
+src/hw/Monitor/Monitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/hw/Monitor/Monitor.cpp.i
+.PHONY : src/hw/Monitor/Monitor.cpp.i
+
+src/hw/Monitor/Monitor.s: src/hw/Monitor/Monitor.cpp.s
+.PHONY : src/hw/Monitor/Monitor.s
+
+# target to generate assembly for a file
+src/hw/Monitor/Monitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/hw/Monitor/Monitor.cpp.s
+.PHONY : src/hw/Monitor/Monitor.cpp.s
+
+src/hw/rfid/CardReader.o: src/hw/rfid/CardReader.cpp.o
+.PHONY : src/hw/rfid/CardReader.o
+
+# target to build an object file
+src/hw/rfid/CardReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/hw/rfid/CardReader.cpp.o
+.PHONY : src/hw/rfid/CardReader.cpp.o
+
+src/hw/rfid/CardReader.i: src/hw/rfid/CardReader.cpp.i
+.PHONY : src/hw/rfid/CardReader.i
+
+# target to preprocess a source file
+src/hw/rfid/CardReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/hw/rfid/CardReader.cpp.i
+.PHONY : src/hw/rfid/CardReader.cpp.i
+
+src/hw/rfid/CardReader.s: src/hw/rfid/CardReader.cpp.s
+.PHONY : src/hw/rfid/CardReader.s
+
+# target to generate assembly for a file
+src/hw/rfid/CardReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/hw/rfid/CardReader.cpp.s
+.PHONY : src/hw/rfid/CardReader.cpp.s
+
+src/hw/rfid/mfrc522.o: src/hw/rfid/mfrc522.cpp.o
+.PHONY : src/hw/rfid/mfrc522.o
+
+# target to build an object file
+src/hw/rfid/mfrc522.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/hw/rfid/mfrc522.cpp.o
+.PHONY : src/hw/rfid/mfrc522.cpp.o
+
+src/hw/rfid/mfrc522.i: src/hw/rfid/mfrc522.cpp.i
+.PHONY : src/hw/rfid/mfrc522.i
+
+# target to preprocess a source file
+src/hw/rfid/mfrc522.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/hw/rfid/mfrc522.cpp.i
+.PHONY : src/hw/rfid/mfrc522.cpp.i
+
+src/hw/rfid/mfrc522.s: src/hw/rfid/mfrc522.cpp.s
+.PHONY : src/hw/rfid/mfrc522.s
+
+# target to generate assembly for a file
+src/hw/rfid/mfrc522.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/hw/rfid/mfrc522.cpp.s
+.PHONY : src/hw/rfid/mfrc522.cpp.s
+
+src/hw/spi/SPI.o: src/hw/spi/SPI.cpp.o
+.PHONY : src/hw/spi/SPI.o
+
+# target to build an object file
+src/hw/spi/SPI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/hw/spi/SPI.cpp.o
+.PHONY : src/hw/spi/SPI.cpp.o
+
+src/hw/spi/SPI.i: src/hw/spi/SPI.cpp.i
+.PHONY : src/hw/spi/SPI.i
+
+# target to preprocess a source file
+src/hw/spi/SPI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/hw/spi/SPI.cpp.i
+.PHONY : src/hw/spi/SPI.cpp.i
+
+src/hw/spi/SPI.s: src/hw/spi/SPI.cpp.s
+.PHONY : src/hw/spi/SPI.s
+
+# target to generate assembly for a file
+src/hw/spi/SPI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/hw/spi/SPI.cpp.s
+.PHONY : src/hw/spi/SPI.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rfid.dir/build.make CMakeFiles/rfid.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -124,6 +353,34 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... rfid"
+	@echo "... src/GolfMembershipManager.o"
+	@echo "... src/GolfMembershipManager.i"
+	@echo "... src/GolfMembershipManager.s"
+	@echo "... src/app/Controller/Controller.o"
+	@echo "... src/app/Controller/Controller.i"
+	@echo "... src/app/Controller/Controller.s"
+	@echo "... src/app/Entity/MembersEntity.o"
+	@echo "... src/app/Entity/MembersEntity.i"
+	@echo "... src/app/Entity/MembersEntity.s"
+	@echo "... src/app/Listener/Listener.o"
+	@echo "... src/app/Listener/Listener.i"
+	@echo "... src/app/Listener/Listener.s"
+	@echo "... src/hw/Monitor/Monitor.o"
+	@echo "... src/hw/Monitor/Monitor.i"
+	@echo "... src/hw/Monitor/Monitor.s"
+	@echo "... src/hw/rfid/CardReader.o"
+	@echo "... src/hw/rfid/CardReader.i"
+	@echo "... src/hw/rfid/CardReader.s"
+	@echo "... src/hw/rfid/mfrc522.o"
+	@echo "... src/hw/rfid/mfrc522.i"
+	@echo "... src/hw/rfid/mfrc522.s"
+	@echo "... src/hw/spi/SPI.o"
+	@echo "... src/hw/spi/SPI.i"
+	@echo "... src/hw/spi/SPI.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

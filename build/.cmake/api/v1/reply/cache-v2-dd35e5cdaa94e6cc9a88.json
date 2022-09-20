@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/bin/aarch64-linux-gnu-g++"
 		},
 		{
@@ -283,10 +283,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/bin/aarch64-linux-gnu-gcc"
 		},
 		{
@@ -835,7 +835,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Project"
+			"value" : "rfid"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1118,7 +1118,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Project_BINARY_DIR",
+			"name" : "rfid_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1130,7 +1130,7 @@
 			"value" : "/home/ubuntu/project/GolfMembershipManager/build"
 		},
 		{
-			"name" : "Project_IS_TOP_LEVEL",
+			"name" : "rfid_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1142,7 +1142,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Project_SOURCE_DIR",
+			"name" : "rfid_SOURCE_DIR",
 			"properties" : 
 			[
 				{
